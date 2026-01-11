@@ -43,16 +43,14 @@
    git clone https://github.com/你的用户名/你的仓库名.git
    cd 你的仓库名
 安装依赖
-code
-Bash
+ ```bash
 pip install customtkinter pynput
 运行
-code
-Bash
+ ```bash
 python main.py
 
 📖 快捷键说明
-  快捷键	        功能
+快捷键	    功能
 F8	    启动 / 停止 普通连点 (鼠标或键盘)
 F9	    抓取当前鼠标坐标 (填入固定位置)
 F10	 开始 / 停止 宏录制
@@ -61,8 +59,7 @@ F11	 开始 / 停止 宏播放
 📦 如何打包
 本项目包含自动打包脚本。确保安装 pyinstaller 后，运行目录下的打包脚本即可生成 EXE：
 
-code
-Bash
+ ```bash
 python pack.py
 ⚠️ 免责声明
 本软件仅供学习交流与辅助日常操作使用。
@@ -70,4 +67,4 @@ python pack.py
 请勿用于违反游戏用户协议的场景，作者不对使用本软件造成的任何后果负责。
 🤝 贡献与反馈
 欢迎提交 Issue 或 Pull Request！
-联系作者：Your Name
+联系作者：969670106@qq.com
