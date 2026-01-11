@@ -1,5 +1,6 @@
 # ---1.0-
-[个人开发/免费]一款基于 Python 和 CustomTkinter 开发的现代化 Windows 连点器。 支持鼠标连点、键盘连点、宏录制与回放，拥有美观的 Win11 风格界面
+[个人开发/免费]
+一款基于 Python 和 CustomTkinter 开发的现代化 Windows 连点器。 支持鼠标连点、键盘连点、宏录制与回放，拥有美观的 Win11 风格界面
 # 🖱️ AutoClicker Pro (全能连点器)
 
 ![Python](https://img.shields.io/badge/Python-3.10%2B-blue)
@@ -38,28 +39,25 @@
 ### 方式二：源码运行
 如果你想修改代码或二次开发，请按以下步骤操作：
 
-1. **克隆仓库**
-   ```bash
-   git clone https://github.com/你的用户名/你的仓库名.git
-   cd 你的仓库名
-安装依赖
- ```bash
+## 🛠️ 安装与运行
+
+**1. 安装依赖**
+```bash
 pip install customtkinter pynput
-运行
- ```bash
+2. 运行
+code
+Bash
 python main.py
-
 📖 快捷键说明
-快捷键	    功能
-F8	    启动 / 停止 普通连点 (鼠标或键盘)
-F9	    抓取当前鼠标坐标 (填入固定位置)
-F10	 开始 / 停止 宏录制
-F11	 开始 / 停止 宏播放
-
+快捷键	功能
+F8	启动 / 停止 普通连点 (鼠标或键盘)
+F9	抓取当前鼠标坐标 (填入固定位置)
+F10	开始 / 停止 宏录制
+F11	开始 / 停止 宏播放
 📦 如何打包
 本项目包含自动打包脚本。确保安装 pyinstaller 后，运行目录下的打包脚本即可生成 EXE：
-
- ```bash
+code
+Bash
 python pack.py
 ⚠️ 免责声明
 本软件仅供学习交流与辅助日常操作使用。
@@ -67,4 +65,4 @@ python pack.py
 请勿用于违反游戏用户协议的场景，作者不对使用本软件造成的任何后果负责。
 🤝 贡献与反馈
 欢迎提交 Issue 或 Pull Request！
-联系作者：969670106@qq.com
+📧 联系作者：969670106@qq.com
