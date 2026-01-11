@@ -49,10 +49,9 @@
 pip install customtkinter pynput
 💡 建议在虚拟环境中运行，避免污染全局 Python 环境。
 ```
-**运行程序
+##运行程序
 
 ```bash
-编辑
 python main.py
 ```
 📖 快捷键说明
@@ -66,12 +65,14 @@ F11	开始 / 停止 宏播放
 
 ```bash
 pip install pyinstaller
-然后运行打包脚本生成独立的 .exe 文件：
 ```
+然后运行打包脚本生成独立的 .exe 文件：
+
 ```bash
 python pack.py
-生成的可执行文件位于 dist/ 目录下。
 ```
+生成的可执行文件位于 dist/ 目录下。
+
 ⚠️ 免责声明
 本软件仅供学习交流与辅助日常操作使用。
 
