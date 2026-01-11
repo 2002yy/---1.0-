@@ -44,9 +44,9 @@
 **1. 安装依赖**
 ```bash
 pip install customtkinter pynput
-2. 运行
+**2. 运行**
 code
-Bash
+```bash
 python main.py
 📖 快捷键说明
 快捷键	功能
