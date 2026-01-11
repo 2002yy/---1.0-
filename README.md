@@ -9,9 +9,8 @@
 
 一款基于 Python 和 CustomTkinter 开发的现代化 Windows 连点器。
 支持鼠标连点、键盘连点、宏录制与回放，拥有美观的 Win11 风格界面。
+<img width="1028" height="814" alt="连点器Pro_1 0版 exe_20260111_194957" src="https://github.com/user-attachments/assets/7b13fda0-30c0-4692-a495-5ac8fc20081f" />
 
-![软件预览图](preview.png)
-*(请在此处替换为你的软件截图，将截图命名为 preview.png 并放在项目根目录)*
 
 ## ✨ 功能特性 (Features)
 
@@ -53,14 +52,15 @@ Bash
 python main.py
 
 📖 快捷键说明
-快捷键	功能
-F8	启动 / 停止 普通连点 (鼠标或键盘)
-F9	抓取当前鼠标坐标 (填入固定位置)
-F10	开始 / 停止 宏录制
-F11	开始 / 停止 宏播放
+  快捷键	        功能
+F8	    启动 / 停止 普通连点 (鼠标或键盘)
+F9	    抓取当前鼠标坐标 (填入固定位置)
+F10	 开始 / 停止 宏录制
+F11	 开始 / 停止 宏播放
 
 📦 如何打包
 本项目包含自动打包脚本。确保安装 pyinstaller 后，运行目录下的打包脚本即可生成 EXE：
+
 code
 Bash
 python pack.py
