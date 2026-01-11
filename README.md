@@ -54,7 +54,7 @@ pip install customtkinter pynput
 ## 运行程序
 
 ```bash
-python main.py
+python 连点器1.0.py
 ```
 📖 快捷键说明
 
