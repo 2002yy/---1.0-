@@ -51,12 +51,14 @@ pip install customtkinter pynput
 code
 Bash
 python main.py
+
 📖 快捷键说明
 快捷键	功能
 F8	启动 / 停止 普通连点 (鼠标或键盘)
 F9	抓取当前鼠标坐标 (填入固定位置)
 F10	开始 / 停止 宏录制
 F11	开始 / 停止 宏播放
+
 📦 如何打包
 本项目包含自动打包脚本。确保安装 pyinstaller 后，运行目录下的打包脚本即可生成 EXE：
 code
