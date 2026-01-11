@@ -1,2 +1,71 @@
 # ---1.0-
 [个人开发/免费]一款基于 Python 和 CustomTkinter 开发的现代化 Windows 连点器。 支持鼠标连点、键盘连点、宏录制与回放，拥有美观的 Win11 风格界面
+# 🖱️ AutoClicker Pro (全能连点器)
+
+![Python](https://img.shields.io/badge/Python-3.10%2B-blue)
+![Platform](https://img.shields.io/badge/Platform-Windows-win)
+![License](https://img.shields.io/badge/License-MIT-green)
+![UI](https://img.shields.io/badge/UI-CustomTkinter-orange)
+
+一款基于 Python 和 CustomTkinter 开发的现代化 Windows 连点器。
+支持鼠标连点、键盘连点、宏录制与回放，拥有美观的 Win11 风格界面。
+
+![软件预览图](preview.png)
+*(请在此处替换为你的软件截图，将截图命名为 preview.png 并放在项目根目录)*
+
+## ✨ 功能特性 (Features)
+
+*   **🎨 现代化 UI**：采用 CustomTkinter 构建，完美融入 Windows 11 设计风格，支持高分屏。
+*   **🖱️ 鼠标连点**：
+    *   支持 左键 / 右键 / 中键。
+    *   支持 单击 / 双击。
+    *   支持 **固定坐标** 点击（F9 一键抓取）或跟随鼠标位置。
+*   **⌨️ 键盘连点**：支持任意键盘按键的自动连按。
+*   **🔴 宏录制 (Macro)**：
+    *   所见即所得的键鼠操作录制。
+    *   支持完美复刻操作节奏与路径。
+    *   无限循环回放。
+*   **⚙️ 灵活配置**：
+    *   支持毫秒级间隔设置。
+    *   多种停止条件：无限循环、指定次数、指定时长。
+    *   配置自动保存 (JSON)。
+*   **🚀 便携运行**：单文件 EXE，无需安装 Python 环境即可运行。
+
+## 🛠️ 安装与使用 (Installation)
+
+### 方式一：直接下载 (推荐)
+前往 [Releases 页面](https://github.com/你的用户名/你的仓库名/releases) 下载最新的 `.exe` 文件，双击即可运行。
+
+### 方式二：源码运行
+如果你想修改代码或二次开发，请按以下步骤操作：
+
+1. **克隆仓库**
+   ```bash
+   git clone https://github.com/你的用户名/你的仓库名.git
+   cd 你的仓库名
+安装依赖
+code
+Bash
+pip install customtkinter pynput
+运行
+code
+Bash
+python main.py
+📖 快捷键说明
+快捷键	功能
+F8	启动 / 停止 普通连点 (鼠标或键盘)
+F9	抓取当前鼠标坐标 (填入固定位置)
+F10	开始 / 停止 宏录制
+F11	开始 / 停止 宏播放
+📦 如何打包
+本项目包含自动打包脚本。确保安装 pyinstaller 后，运行目录下的打包脚本即可生成 EXE：
+code
+Bash
+python pack.py
+⚠️ 免责声明
+本软件仅供学习交流与辅助日常操作使用。
+软件采用模拟物理输入的方式运行（前台模拟），不是后台注入类外挂。
+请勿用于违反游戏用户协议的场景，作者不对使用本软件造成的任何后果负责。
+🤝 贡献与反馈
+欢迎提交 Issue 或 Pull Request！
+联系作者：Your Name
