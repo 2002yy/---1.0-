@@ -49,10 +49,9 @@
 pip install customtkinter pynput
 💡 建议在虚拟环境中运行，避免污染全局 Python 环境。
 ```
+**运行程序
 
-2. 运行程序
-
-Bash
+```Bash
 编辑
 python main.py
 ```
@@ -65,12 +64,12 @@ F11	开始 / 停止 宏播放
 📦 如何打包
 本项目包含自动打包脚本。请先安装 pyinstaller：
 
-Bash
+```Bash
 编辑
 pip install pyinstaller
 然后运行打包脚本生成独立的 .exe 文件：
 ```
-Bash
+```Bash
 编辑
 python pack.py
 生成的可执行文件位于 dist/ 目录下。
