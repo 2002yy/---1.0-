@@ -50,12 +50,13 @@
 pip install customtkinter pynput
 💡 建议在虚拟环境中运行，避免污染全局 Python 环境。
 ```
-##运行程序
+## 运行程序
 
 ```bash
 python main.py
 ```
 📖 快捷键说明
+
 快捷键	 功能
 F8	 启动 / 停止 普通连点（鼠标或键盘）
 F9	 抓取当前鼠标坐标（填入固定位置）
